@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+www.india shop.com
+        </title>
+        
+         <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        <h1>please login</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel"></div>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../images/family-2923690.jpg" class="d-block w-100" alt="">
+            </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">india shop</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="../html/registerform.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              </ul>
+            </div>
+          </nav> 
+          </div>
+        </div>
+        </div>
+        <script>
+            let counter=document.querySelector('h1');
+            let count = 1;
+            setInterval(()=>{
+                counter.innerText =count;
+count++
+if(count > 5) location.replace('../html/registerform.html');
+            },1000)
+        </script>
+    </html>
